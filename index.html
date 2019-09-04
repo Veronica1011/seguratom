@@ -7,9 +7,10 @@
     <link rel="icon" href="img/iconoBoni.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Gayathri:400,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Seguratom</title>
   </head>
@@ -17,22 +18,31 @@
     <!-- Header Nav -->
     <header>
       <div class="container">
-        <a href="index.html" class="brand">
-          <img src="img/ahorasi.png" />
-        </a>
-        <nav class="menu">
-          <div class="drawer">
-            <a href="servicios.html">Servicios</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="acreditaciones.html">Acreditaciones</a>
+        <div class="fila fila-header">
+          <div class="columna">
+            <a href="index.html" class="brand">
+              <img src="img/ahorasi.png" />
+            </a>
           </div>
-          <a href="#" class="hamb">
-            <i class="flaticon-menu-button-of-three-lines" aria-hidden="true"></i>
-          </a>
-          <a href="" id="contacto">
-            <i class="flaticon-envelope"></i>
-          </a>
-        </nav>
+          <div class="columna">
+            <nav class="menu">
+              <div class="drawer">
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="acreditaciones.html">Acreditaciones</a>
+              </div>
+              <a href="#" class="hamb">
+                <i
+                  class="flaticon-menu-button-of-three-lines"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a href="" id="contacto">
+                <i class="flaticon-envelope"></i>
+              </a>
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -40,24 +50,30 @@
       <!-- Especialistas en seguridad... -->
       <section class="subheader">
         <img src="img/img1.jpg" alt="medical xray machine" />
-        <div class="slogan">
-          Especialistas en seguridad radiológica y control de calidad a equipos
-          de Rayos X
+        <div class="container slogan">
+          <div class="fila">
+            <div class="columna columna-66">
+              <h1>
+                Especialistas en seguridad radiológica y control de calidad a
+                equipos de Rayos X
+              </h1>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- Te ofrecemos... -->
-      <section class="ofertas">
+      <section class="servicios">
         <div class="container">
-          <h1>Te ofrecemos</h1>
-          <div class="fila">
-            <div class="areaMedica">
+          <h2>Te ofrecemos</h2>
+          <div class="fila fila-servicios">
+            <div class="columna columna-33">
               <a href="serviciosAreaMedica.html">
                 <img src="img/img2.jpg" alt="" />
               </a>
               <h3>Servicios Área Médica</h3>
             </div>
-            <div class="areaIndustrial">
+            <div class="columna columna-33">
               <a href="serviciosAreaIndustrial.html">
                 <img src="img/img3.jpg" alt="" />
               </a>
@@ -68,41 +84,48 @@
       </section>
 
       <!-- ¿Quiénes somos? -->
-      <section class="quienesSomos">
-        <h1>¿Quiénes somos?</h1>
-        <p>
-          Somos una empresa especializada en Seguridad Radiológica, que cuenta
-          con equipos de avanzada tecnología que nos permiten brindar todo tipo
-          de servicios relacionados con el uso de las Radiaciones Ionizantes; a
-          fin de que nuestros usuarios cuenten con soluciones integrales para la
-          obtención de las Licencias de Operación y Registros de Instalación que
-          emite el IPEN-OTAN y operaren bajo lo establecido en la Ley 28028.
-        </p>
+      <section class="quienessomos">
+        <div class="container">
+          <h2>¿Quiénes somos?</h2>
+          <div class="fila fila-quienes">
+            <div class="columna columna-50">
+              <p>
+                Somos una empresa especializada en Seguridad Radiológica, que
+                cuenta con equipos de avanzada tecnología que nos permiten
+                brindar todo tipo de servicios relacionados con el uso de las
+                Radiaciones Ionizantes; a fin de que nuestros usuarios cuenten
+                con soluciones integrales para la obtención de las Licencias de
+                Operación y Registros de Instalación que emite el IPEN-OTAN y
+                operaren bajo lo establecido en la Ley 28028.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- ¿Por qué elegir Seguratom? -->
       <section class="razones">
         <div class="container">
-          <h1>¿Por qué elegir Seguratom?</h1>
+          <h2>¿Por qué elegir Seguratom?</h2>
           <div class="fila">
-            <div class="columna">
-              <h2>Seguridad</h2>
+            <div class="columna columna-33">
+              <h3>Seguridad</h3>
               <i class="flaticon-shield"></i>
               <p>
                 Estamos acreditados ante el IPEN-OTAN para manejar equipos
                 radiactivos y así brindarte un servicio de calidad
               </p>
             </div>
-            <div class="columna">
-              <h2>Compromiso</h2>
+            <div class="columna columna-33">
+              <h3>Compromiso</h3>
               <i class="flaticon-team"></i>
               <p>
                 Brindamos apoyo continuo a nuestros usuarios desde la etapa
                 inicial hasta la obtención de los permisos necesarios
               </p>
             </div>
-            <div class="columna">
-              <h2>Equipo de trabajo</h2>
+            <div class="columna columna-33">
+              <h3>Equipo de trabajo</h3>
               <i class="flaticon-work"></i>
               <p>
                 Poseemos un equipo de profesionales altamente calificados y con
@@ -130,81 +153,111 @@
         </div>
       </section>
 
-      <!-- Contáctenos -->
+      <!-- CONTÁCTENOS -->
+      <!-- Contáctenos Formulario -->
       <section class="contacto">
         <div class="container">
-          <h1>Contáctenos</h1>
+          <h2>Contáctenos</h2>
           <div class="fila">
-            <div class="columna">
+            <div class="columna columna-50">
               <form>
-                <input
-                  class="form-item"
-                  type="text"
-                  placeholder="Nombre y Apellidos"
-                  required
-                />
-                <input
-                  class="form-item"
-                  type="text"
-                  placeholder="Email"
-                  required
-                />
-                <input
-                  class="form-item"
-                  type="text"
-                  placeholder="Teléfono / Celular"
-                  required
-                />
-                <select class="form-item">
-                  <option value="" disabled selected
-                    >Selecciona una región</option
-                  >
-                  <option value="amazonas">Amazonas</option>
-                  <option value="ancash">Ancash</option>
-                  <option value="apurimac">Apurímac</option>
-                  <option value="arequipa">Arequipa</option>
-                  <option value="ayacucho">Ayacucho</option>
-                  <option value="cajamarca">Cajamarca</option>
-                  <option value="callao">Callao</option>
-                  <option value="cusco">Cusco</option>
-                  <option value="huancavelica">Huancavelica</option>
-                  <option value="huanuco">Huánuco</option>
-                  <option value="ica">Ica</option>
-                  <option value="junin">Junín</option>
-                  <option value="laLibertad">La Libertad</option>
-                  <option value="lambayeque">Lambayeque</option>
-                  <option value="lima">Lima</option>
-                  <option value="loreto">Loreto</option>
-                  <option value="madreDeDios">Madre de Dios</option>
-                  <option value="moquegua">Moquegua</option>
-                  <option value="cerroDePasco">Cerro de Pasco</option>
-                  <option value="piura">Piura</option>
-                  <option value="puno">Puno</option>
-                  <option value="sanMartin">San Martín</option>
-                  <option value="tacna">Tacna</option>
-                  <option value="tumbes">Tumbes</option>
-                  <option value="ucayali">Ucayali</option>
-                </select>
-                <input
-                  class="form-item"
-                  type="text"
-                  placeholder="Provincia / Distrito"
-                />
-                <textarea
-                  class="form-item"
-                  placeholder="Mensaje"
-                  required
-                ></textarea>
-                <input type="submit" value="Enviar" />
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombre y Apellidos"
+                    class="form-item"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email"
+                    class="form-item"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="telefono"
+                    placeholder="Teléfono / Celular"
+                    class="form-item"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <select class="form-item">
+                    <option value="" disabled selected
+                      >Selecciona una región</option
+                    >
+                    <option value="amazonas">Amazonas</option>
+                    <option value="ancash">Ancash</option>
+                    <option value="apurimac">Apurímac</option>
+                    <option value="arequipa">Arequipa</option>
+                    <option value="ayacucho">Ayacucho</option>
+                    <option value="cajamarca">Cajamarca</option>
+                    <option value="callao">Callao</option>
+                    <option value="cusco">Cusco</option>
+                    <option value="huancavelica">Huancavelica</option>
+                    <option value="huanuco">Huánuco</option>
+                    <option value="ica">Ica</option>
+                    <option value="junin">Junín</option>
+                    <option value="laLibertad">La Libertad</option>
+                    <option value="lambayeque">Lambayeque</option>
+                    <option value="lima">Lima</option>
+                    <option value="loreto">Loreto</option>
+                    <option value="madreDeDios">Madre de Dios</option>
+                    <option value="moquegua">Moquegua</option>
+                    <option value="cerroDePasco">Cerro de Pasco</option>
+                    <option value="piura">Piura</option>
+                    <option value="puno">Puno</option>
+                    <option value="sanMartin">San Martín</option>
+                    <option value="tacna">Tacna</option>
+                    <option value="tumbes">Tumbes</option>
+                    <option value="ucayali">Ucayali</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="provincia"
+                    placeholder="Provincia / Distrito"
+                    class="form-item"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    placeholder="Mensaje"
+                    class="form-item"
+                    rows="7"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="form-group final">
+                  <input type="submit" value="ENVIAR" name="">
+                </div>
               </form>
             </div>
-            <div class="columna">
+
+            <!-- Contáctenos Datos -->
+
+            <div class="columna columna-50 columna-items">
               <div class="item">
                 <i class="flaticon-clock-circular-outline"></i
                 ><span class="descripcion-item"
                   >Lunes a Viernes de 08:00 am a 6:00 pm</span
                 >
               </div>
+
               <div class="item">
                 <i class="flaticon-placeholder"></i
                 ><span class="descripcion-item"
@@ -225,19 +278,18 @@
       </section>
     </main>
 
-      
     <footer>
       <!-- Footer1 -->
-      <section class="footer1">
-        <div class="fila">
-          <div class="columna columna1">
+      <section class="container footer1">
+        <div class="fila fila-footer1">
+          <div class="columna columna-33 columna-logo">
             <img src="img/ahorasi.png" />
           </div>
-          <div class="columna columna2">
+          <div class="columna columna-33 columna-links">
             <a href="#">Política de privacidad</a>
             <a href="#">Ayuda</a>
           </div>
-          <div class="columna columna3">
+          <div class="columna columna-33 columna-redes">
             <a href="#">
               <i class="flaticon-facebook"></i>
             </a>
@@ -252,8 +304,12 @@
       </section>
 
       <!-- Footer2 -->
-      <section class="footer2">
-        <p>© 2019 Seguratom Inc S.R.L. Todos los derechos reservados</p>
+      <section class="container footer2">
+        <div class="fila fila-footer2">
+          <div class="columna">
+            <p>© 2019 Seguratom Inc S.R.L. Todos los derechos reservados</p>
+          </div>
+        </div>
       </section>
     </footer>
   </body>
