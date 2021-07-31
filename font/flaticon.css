@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 02/09/2019 01:56
+  	Creation date: 22/09/2019 02:58
   	*/
 
 @font-face {
@@ -33,19 +33,20 @@ font-style: normal;
 .flaticon-test:before { content: "\f101"; }
 .flaticon-checked:before { content: "\f102"; }
 .flaticon-mail:before { content: "\f103"; }
-.flaticon-shield:before { content: "\f104"; }
-.flaticon-team:before { content: "\f105"; }
-.flaticon-work:before { content: "\f106"; }
-.flaticon-customer:before { content: "\f107"; }
-.flaticon-customer-service:before { content: "\f108"; }
-.flaticon-hourglass:before { content: "\f109"; }
-.flaticon-team-1:before { content: "\f10a"; }
-.flaticon-envelope:before { content: "\f10b"; }
-.flaticon-clock-circular-outline:before { content: "\f10c"; }
-.flaticon-placeholder:before { content: "\f10d"; }
-.flaticon-auricular-phone-symbol-in-a-circle:before { content: "\f10e"; }
-.flaticon-at:before { content: "\f10f"; }
-.flaticon-menu-button-of-three-lines:before { content: "\f110"; }
-.flaticon-facebook:before { content: "\f111"; }
-.flaticon-linkedin:before { content: "\f112"; }
-.flaticon-twitter-logo-on-black-background:before { content: "\f113"; }
+.flaticon-team:before { content: "\f104"; }
+.flaticon-work:before { content: "\f105"; }
+.flaticon-customer-service:before { content: "\f106"; }
+.flaticon-hourglass:before { content: "\f107"; }
+.flaticon-team-1:before { content: "\f108"; }
+.flaticon-envelope:before { content: "\f109"; }
+.flaticon-clock-circular-outline:before { content: "\f10a"; }
+.flaticon-auricular-phone-symbol-in-a-circle:before { content: "\f10b"; }
+.flaticon-menu-button-of-three-lines:before { content: "\f10c"; }
+.flaticon-shield:before { content: "\f10d"; }
+.flaticon-social-email-circular-button:before { content: "\f10e"; }
+.flaticon-placeholder-outline:before { content: "\f10f"; }
+.flaticon-facebook-logo:before { content: "\f110"; }
+.flaticon-linkedin-logo:before { content: "\f111"; }
+.flaticon-twitter-logo-on-black-background:before { content: "\f112"; }
+.flaticon-target:before { content: "\f113"; }
+.flaticon-delete:before { content: "\f114"; }
